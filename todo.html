@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+     <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="flex">
+      <form id="form">
+        <label class="font-big">To do list</label>
+        <input type="text" id="name" class="size-t" placeholder="Add a task here"/>
+        <lael class="font-big">Date</lael>
+        <input type="date" id="date" class="size-q" />
+        <label class="font-big">Status</label>
+        <select id="status" class="size-s">
+          <!-- <option hidden selected>Select your status</option> -->
+          <option value="True">True</option>
+          <option value="False" selected >False</option>
+        </select>
+        <button id="submit" class="btn-1">Add</button>
+      </form>
+      <button id="toggle">Toggle Status</button>
+      <div id="counter">
+        <div >Tasks Left</div>
+        <div id="count">0</div>
+      </div>
+    </div>
+      <hr />
+      <table>
+        <tr>
+          <td class=td-special>Task</td>
+          <td  class=td-special>Date</td>
+          <td  class=td-special>Status</td>
+          <td class=td-special>Click Accordingly</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>

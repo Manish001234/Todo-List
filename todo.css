@@ -1,0 +1,119 @@
+#container {
+    width: 80%;
+    margin:0px auto;
+    background-color:lightblue
+  }
+  .td-special {
+    font-weight: bold;
+  }
+  #date{
+    width:180px;
+  }
+  .font-big {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+    color: #1A237E;
+  }
+  .size-t {
+    width: 20%;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  .size-q {
+    width: 15%;
+    height: 30px;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+  .size-s {
+    width: 10%;
+    padding: 4px 0px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+  .btn-1 {
+    height: 30px;
+    margin-left: 25px;
+    width: 70px;
+    font-weight: bold;
+    color: green;
+    border-radius: 15px;
+  }
+  #form {
+    margin:20px 0px 0px 80px;
+    width:70%;
+  }
+  #toggle {
+    height: 30px;
+    margin-top:28px;
+    width:10%;
+    font-weight: bold;
+    color: #795548;
+    border-radius: 15px;
+  }
+  hr {
+    width: 90%;
+    height:5px;
+    background: red;
+    /* transition: width 2s; */
+  }
+  /* hr:hover {
+  width: 100%;
+  } */
+  table {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+  td {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px 50px;
+    color: white;
+    background-color:#330066;
+  }
+  .done{
+    background-color:green;
+    margin-left:10px;
+    width:30%;
+    height: 30px;
+    border-radius:15px;
+    color: white;
+  }
+  .remove{
+    background-color:red;
+    width:30%;
+    height: 30px;
+    margin-left:10px;
+    border-radius:15px;
+    color: white;
+  }
+  #flex{
+    display: flex;
+    width:100%;
+    margin:auto;
+  }
+  #counter{
+    display:flex;
+    margin-left:30px;
+    margin-top:28px;
+    font-size:25px;
+    color: #1A237E;
+    font-weight: bold;
+  }
+  #count{
+   margin-left: 5px;
+    font-size:25px;
+  }
